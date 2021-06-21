@@ -1,0 +1,145 @@
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--bs-info);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--bs-grey-dark);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: var(--bs-info);
+    color: var(--bs-light);
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+/* slider */
+.slider {
+    background-image: url(../images/header.jpg);
+    /*background-color: var(--bs-gray-dark);
+    background-blend-mode: multiply;*/
+    background-size: cover;
+    height: 70vh;
+}
+
+.slider .opacity {
+    background-color: var(--bs-gray-dark);
+    opacity: 0.75;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider .heading h3,
+.slider .heading h1 {
+    color: var(--bs-light);
+}
+
+.slider .heading h3 {
+    font-size: 20px;
+}
+
+.slider .heading h1 {
+    font-size: 50px;
+}
+
+.read-more .preview,
+.read-more .get-theme {
+    padding: 1% 5%;
+}
+
+.read-more .preview {
+    background-color: transparent;
+    border: 2px solid var(--bs-light);
+}
+
+.read-more .get-theme {
+    background-color: var(--bs-info);
+    color: var(--bs-light);
+    border: 2px solid var(--bs-info);
+}
+
+/*about-us*/
+.about-us {
+    background-color: #f4f4f4;
+    padding-top: 10%;
+}
+
+.about-us .little-history {
+    color: var(--bs-gray-dark);
+}
+
+.about-us .little-history h2 {
+    font-size: 30px;
+}
+
+.about-us .little-history p {
+    font-size: 18px;
+}
+
+.about-us .service {
+    padding: 6% 0
+}
+
+.about-us .service .work {
+    background-color: var(--bs-light);
+    padding: 10%
+}
+
+.about-us .service .work img {
+    border-bottom: 4px solid var(--bs-info);
+    padding-bottom: 5%;
+    color: var(--bs-gray-dark);
+    height: 8vh;
+}
+
+.about-us .service .work h3 {
+    font-size: 30px;
+}
+
+.about-us .service .work p {
+    font-size: 18px;
+}
+
+/* /about-us */
+/* clients*/
+.clients .intro {
+    padding-top: 10%;
+}
+
+.clients .intro p {
+    padding: 5% 15% 2% 15%;
+}
+
+.clients .founder {
+    color: var(--bs-secondary)
+}
+
+.clients .logo {
+    padding: 5% 15% 1% 15%
+}
+
+/* /clients */
+/* footer */
+.link {
+    background-color: var(--bs-cyan);
+    height: 70px;
+}
+
+.link .row {
+    padding-top: 2%;
+}
+
+.link .right p {
+    color: var(--bs-white);
+}
+
+.link .media i {
+    color: var(--bs-white);
+}
+
+/* /footer */
